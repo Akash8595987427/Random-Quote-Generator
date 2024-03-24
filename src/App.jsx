@@ -34,9 +34,9 @@ const App=()=>{
               
               <div className="line w-[80%] h-0.5 mt-6 bg-white "></div>
 
-              <div className="bottom flex w-full justify-evenly gap-16">
-              <div className="quotes_author text-center text-white"> {quote.author} </div>
-              <div className="icons flex gap-8">
+              <div className="bottom flex w-full justify-start">
+              <div className="quotes_author w-[80%] text-white px-12"> {quote.author} </div>
+              <div className="icons w-[20%] flex gap-8">
               
                 <img onClick={getApiData} className="w-6 h-6" src="/img/reload_icon.jpg" alt="reload_img" />
                 <img onClick={handleTwitter} className="w-6 h-6" src="/img/twitter_icon.png" alt="twitter_img" />
